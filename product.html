@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/shopping-cart.svg">
+    <meta name='description' content="D'PERFUME購物網站" />
+    <meta property="og:title" content="D'PERFUME" />
+    <meta property="og:description" content="各大品牌化妝品">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+
+    <link rel="stylesheet" href="scss/css/all.css">
+
+    <title>D'PERFUME</title>
+
+</head>
+
+<body>
+
+    <div class="header productHeader">
+        <div class="container mx-auto">
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-between position-static p-0">
+                <a href="index.html" class="logo navbar-brand mr-auto">
+                    <h1>D'PERFUME</h1>
+                </a>
+
+                <a href="#" class="mobileCart d-block d-lg-none position-relative">
+                    <img src="/img/shopping-cart.svg" class=" d-block" alt="">
+                    <p class="mobileCartNum mb-0 text-center">3</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav align-items-center justify-content-between h5 text-center">
+
+                        <li class="nav-item mr-lg-4  w-100 order-1 order-lg-0">
+                            <a class="nav-link py-3 d-block  d-lg-flex align-items-center" href="product.html">
+                                <img class="mr-1 d-none d-lg-block" src="img/tshirt.svg" alt="">
+                                <p class="mb-0">
+                                    Product
+                                </p>
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item mr-lg-0  w-100  order-5 order-lg-0 ">
+                            <a class="nav-link py-3 d-block d-lg-flex align-items-center" href="login.html">
+                                <img class="mr-1 d-none d-lg-block" src="img/user-alt.svg" alt="">
+                                <p class="mb-0">
+                                    login
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item mr-lg-4 d-block w-100 order-2 order-lg-0">
+                            <a class="nav-link py-3 d-block d-lg-flex align-items-center" href="product.html">
+                                <img class="mr-1 d-none d-lg-block" src="img/heart.svg" alt="">
+                                <p class="mb-0">
+                                    Wishlist
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item mr-0 d-none d-lg-block w-100">
+                            <a class="nav-link py-3 d-block d-lg-flex align-items-center" href="product.html">
+                                <img class="mr-1 d-none d-lg-block" src="img//shopping-cart.svg" alt="">
+                                <p class="mb-0">
+                                    Cart(3)
+                                </p>
+                            </a>
+                        </li>
+
+
+                        <!--mobile show list-->
+                        <li class="nav-item mr-0 d-block d-lg-none w-100 order-3">
+                            <a class="nav-link py-3 d-block d-lg-flex align-items-center" href="#">
+                                <p class="mb-0">
+                                    Blog
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item mr-0 d-block d-lg-none w-100 order-4">
+                            <a class="nav-link py-3 d-block d-lg-flex align-items-center" href="#">
+                                <p class="mb-0">
+                                    Contact
+                                </p>
+                            </a>
+                        </li>
+
+                        <!--mobile show list-->
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="brandBar bg-primary d-none d-md-block">
+        <ul class="brandBarList d-flex container h5">
+            <li>
+                <a href="#">CHANEL</a>
+            </li>
+            <li>
+                <a href="#">Jo Malone</a>
+            </li>
+            <li>
+                <a href="#">Curology</a>
+            </li>
+            <li>
+                <a href="#">Dior</a>
+            </li>
+            <li>
+                <a href="#">Chloe</a>
+            </li>
+            <li>
+                <a href="#">ZARA</a>
+            </li>
+        </ul>
+    </div>
+
+    <!--main-->
+    <div class="productPage container mx-auto">
+        <ul class="productList row  pl-0">
+            <li class="col-6 col-md-3 mb-md-6">
+                <img class="mb-2" src="/img/product/product1.png" alt="">
+                <h4 class="font-weight-bolder mb-1">Poppy & Barley</h4>
+                <p class="font-weight-light mb-0">Jo Malone</p>
+                <p class="d-inline-block mr-2 mb-1">NT$1,380</p> <del class="text-secondary">NT$1,580</del>
+
+                <ul class="productListFeatures pl-0 d-flex">
+                    <li class="mr-2">
+                        <a href="#" data-toggle="modal" data-target="#addFavoriteModal">
+                            <img src="/img/product/heart-primary.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#addCartModal">
+                            <img src="/img/product/shopping-cart-primary.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="col-6 col-md-3 mb-md-6">
+                <img class="mb-2" src="/img/product/product2.png" alt="">
+                <h4 class="font-weight-bolder mb-1">Poppy & Barley</h4>
+                <p class="font-weight-light mb-0">Jo Malone</p>
+                <p class="d-inline-block mr-2 mb-1">NT$1,380</p> <del class="text-secondary">NT$1,580</del>
+
+                <ul class="productListFeatures pl-0 d-flex">
+                    <li class="mr-2">
+                        <a href="#" data-toggle="modal" data-target="#addFavoriteModal">
+                            <img src="/img/product/heart-primary.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#addCartModal">
+                            <img src="/img/product/shopping-cart-primary.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="col-6 col-md-3 mb-md-6">
+                <img class="mb-2" src="/img/product/product3.png" alt="">
+                <h4 class="font-weight-bolder mb-1">Poppy & Barley</h4>
+                <p class="font-weight-light mb-0">Jo Malone</p>
+                <p class="d-inline-block mr-2 mb-1">NT$1,380</p> <del class="text-secondary">NT$1,580</del>
+
+                <ul class="productListFeatures pl-0 d-flex">
+                    <li class="mr-2">
+                        <a href="#" data-toggle="modal" data-target="#addFavoriteModal">
+                            <img src="/img/product/heart-primary.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#addCartModal">
+                            <img src="/img/product/shopping-cart-primary.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="col-6 col-md-3 mb-md-6">
+                <img class="mb-2" src="/img/product/product4.png" alt="">
+                <h4 class="font-weight-bolder mb-1">Poppy & Barley</h4>
+                <p class="font-weight-light mb-0">Jo Malone</p>
+                <p class="d-inline-block mr-2 mb-1">NT$1,380</p> <del class="text-secondary">NT$1,580</del>
+
+                <ul class="productListFeatures pl-0 d-flex">
+                    <li class="mr-2">
+                        <a href="#" data-toggle="modal" data-target="#addFavoriteModal">
+                            <img src="/img/product/heart-primary.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#addCartModal">
+                            <img src="/img/product/shopping-cart-primary.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="col-6 col-md-3 mb-md-6">
+                <img class="mb-2" src="/img/product/product5.png" alt="">
+                <h4 class="font-weight-bolder mb-1">Poppy & Barley</h4>
+                <p class="font-weight-light mb-0">Jo Malone</p>
+                <p class="d-inline-block mr-2 mb-1">NT$1,380</p> <del class="text-secondary">NT$1,580</del>
+
+                <ul class="productListFeatures pl-0 d-flex">
+                    <li class="mr-2">
+                        <a href="#" data-toggle="modal" data-target="#addFavoriteModal">
+                            <img src="/img/product/heart-primary.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#addCartModal">
+                            <img src="/img/product/shopping-cart-primary.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="col-6 col-md-3 mb-md-6">
+                <img class="mb-2" src="/img/product/product6.png" alt="">
+                <h4 class="font-weight-bolder mb-1">Poppy & Barley</h4>
+                <p class="font-weight-light mb-0">Jo Malone</p>
+                <p class="d-inline-block mr-2 mb-1">NT$1,380</p> <del class="text-secondary">NT$1,580</del>
+
+                <ul class="productListFeatures pl-0 d-flex">
+                    <li class="mr-2">
+                        <a href="#" data-toggle="modal" data-target="#addFavoriteModal">
+                            <img src="/img/product/heart-primary.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#addCartModal">
+                            <img src="/img/product/shopping-cart-primary.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="col-6 col-md-3 mb-md-6">
+                <img class="mb-2" src="/img/product/product7.png" alt="">
+                <h4 class="font-weight-bolder mb-1">Poppy & Barley</h4>
+                <p class="font-weight-light mb-0">Jo Malone</p>
+                <p class="d-inline-block mr-2 mb-1">NT$1,380</p> <del class="text-secondary">NT$1,580</del>
+
+                <ul class="productListFeatures pl-0 d-flex">
+                    <li class="mr-2">
+                        <a href="#" data-toggle="modal" data-target="#addFavoriteModal">
+                            <img src="/img/product/heart-primary.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#addCartModal">
+                            <img src="/img/product/shopping-cart-primary.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="col-6 col-md-3 mb-md-6">
+                <img class="mb-2" src="/img/product/product8.png" alt="">
+                <h4 class="font-weight-bolder mb-1">Poppy & Barley</h4>
+                <p class="font-weight-light mb-0">Jo Malone</p>
+                <p class="d-inline-block mr-2 mb-1">NT$1,380</p> <del class="text-secondary">NT$1,580</del>
+
+                <ul class="productListFeatures pl-0 d-flex">
+                    <li class="mr-2">
+                        <a href="#" data-toggle="modal" data-target="#addFavoriteModal">
+                            <img src="/img/product/heart-primary.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#addCartModal">
+                            <img src="/img/product/shopping-cart-primary.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="col-6 col-md-3 mb-md-6">
+                <img class="mb-2" src="/img/product/product9.png" alt="">
+                <h4 class="font-weight-bolder mb-1">Poppy & Barley</h4>
+                <p class="font-weight-light mb-0">Jo Malone</p>
+                <p class="d-inline-block mr-2 mb-1">NT$1,380</p> <del class="text-secondary">NT$1,580</del>
+
+                <ul class="productListFeatures pl-0 d-flex">
+                    <li class="mr-2">
+                        <a href="#" data-toggle="modal" data-target="#addFavoriteModal">
+                            <img src="/img/product/heart-primary.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#addCartModal">
+                            <img src="/img/product/shopping-cart-primary.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="col-6 col-md-3 mb-md-6">
+                <img class="mb-2" src="/img/product/product10.png" alt="">
+                <h4 class="font-weight-bolder mb-1">Poppy & Barley</h4>
+                <p class="font-weight-light mb-0">Jo Malone</p>
+                <p class="d-inline-block mr-2 mb-1">NT$1,380</p> <del class="text-secondary">NT$1,580</del>
+
+                <ul class="productListFeatures pl-0 d-flex">
+                    <li class="mr-2">
+                        <a href="#" data-toggle="modal" data-target="#addFavoriteModal">
+                            <img src="/img/product/heart-primary.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#addCartModal">
+                            <img src="/img/product/shopping-cart-primary.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="col-6 col-md-3 mb-md-6">
+                <img class="mb-2" src="/img/product/product11.png" alt="">
+                <h4 class="font-weight-bolder mb-1">Poppy & Barley</h4>
+                <p class="font-weight-light mb-0">Jo Malone</p>
+                <p class="d-inline-block mr-2 mb-1">NT$1,380</p> <del class="text-secondary">NT$1,580</del>
+
+                <ul class="productListFeatures pl-0 d-flex">
+                    <li class="mr-2">
+                        <a href="#" data-toggle="modal" data-target="#addFavoriteModal">
+                            <img src="/img/product/heart-primary.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#addCartModal">
+                            <img src="/img/product/shopping-cart-primary.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="col-6 col-md-3 mb-md-6">
+                <img class="mb-2" src="/img/product/product12.png" alt="">
+                <h4 class="font-weight-bolder mb-1">Poppy & Barley</h4>
+                <p class="font-weight-light mb-0">Jo Malone</p>
+                <p class="d-inline-block mr-2 mb-1">NT$1,380</p> <del class="text-secondary">NT$1,580</del>
+
+                <ul class="productListFeatures pl-0 d-flex">
+                    <li class="mr-2">
+                        <a href="#" data-toggle="modal" data-target="#addFavoriteModal">
+                            <img src="/img/product/heart-primary.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#addCartModal">
+                            <img src="/img/product/shopping-cart-primary.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul class="pagination justify-content-center">
+            <li>
+                <a class="active" href="#">1</a>
+            </li>
+            <li>
+                <a href="#">2</a>
+            </li>
+            <li class="mr-0">
+                <a href="#">3</a>
+            </li>
+        </ul>
+    </div>
+    <!--main-->
+
+
+    <!--addCartModal -->
+    <div class="modal fade" id="addCartModal" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+        aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered w-50 mx-auto ">
+            <div class="modal-content ">
+                <div class="modal-header px-3 py-2">
+                    <p class="modal-title mx-auto text-primary font-weight-bolder font-size-20"
+                        id="staticBackdropLabel">已加入購物車 </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+
+    <!--addCartModal -->
+    <div class="modal fade" id="addFavoriteModal" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered w-50 mx-auto ">
+            <div class="modal-content ">
+                <div class="modal-header px-3 py-2">
+                    <p class="modal-title mx-auto text-primary font-weight-bolder font-size-20"
+                        id="staticBackdropLabel">已加入我的收藏 </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+
+    <div class="subscribe container-fluid">
+        <div class="row no-gutters container mx-auto">
+            <div class="subscribeTxt col-12 col-lg-4 text-secondary font-weight-bolder">
+                <h3 class="font-weight-bolder text-nowrap">記得 <br>
+                    訂閱以獲取更多資訊！
+                </h3>
+
+                <div class="input-group input-group-lg subscribeEmail">
+                    <input type="text" class="form-control subscribeEmail" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-lg" placeholder="Your email address">
+                    <div class="input-group-prepend">
+                        <a href="#" class="input-group-text btn btn-primary bg-primary text-white"
+                            id="inputGroup-sizing-lg">Subscribe</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer container-fluid">
+        <div class="container mx-auto">
+            <div class=" d-flex align-items-center justify-content-between">
+                <div class="footerLogo d-flex align-items-center justify-content-between ">
+                    <a href="index.html">
+                        <img class="d-block" src="/img/d’Perfumew.png" alt="">
+                    </a>
+                    <small class="text-white text-nowrap allRight">© 2020. All Rights Reserved.</small>
+                </div>
+                <ul class="footerList d-none d-md-flex mb-0 h5">
+                    <li>
+                        <a href="product.html">
+                            Product
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="mr-0">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

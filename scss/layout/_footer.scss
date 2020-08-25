@@ -1,0 +1,25 @@
+.footer{
+    background: $primary;
+    padding:20px 0px 22px 0px;
+
+    &Logo{
+        img{
+            margin-right: 20px;
+        }
+    }
+
+    &List{
+        a{
+            color:white;
+            margin-right: 36px;
+        }
+    }
+
+
+    @include ipad{
+        &Logo{
+            width: 100%;
+        }
+    }
+
+}

@@ -1,0 +1,140 @@
+.banner{
+    height: 870px;
+    background-image: url(/img/smallBanner.png);
+    margin-bottom: 60px;
+    padding-top: 295px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &Btn{
+        border:1.25px solid white;
+        font-size: 24px;
+        padding:12px 0 ;
+    }
+    &Btn:hover{
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    @include ipad{
+        margin-bottom: 40px;
+
+        background-image: url(/img/mobileBanner.png);
+        height: 480px;
+        width: 100%;
+        padding-top: 101px;
+        
+        
+    }
+}
+
+.indexMain{
+    .productSection{
+        .productTxt{
+           
+        }
+        .productImg{
+            width: 555px;
+            height: 555px;
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        .productPoint{
+            margin-bottom: 52px;
+        }
+
+        .planBtn{
+            border:1.25px solid black;
+            font-size: 24px;
+            padding:12px 0 ;
+        }
+        .planBtn:hover{
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+    }
+    //product bgi 設定
+    .productSection:nth-child(1) .productImg{
+        background-image: url(/img/index1.png);
+    }
+
+    .productSection:nth-child(2) .productImg{
+        background-image: url(/img/index2.png);
+    }
+
+    .productSection:nth-child(3) .productImg{
+        background-image: url(/img/index3.png);
+    }
+
+    .productSection:nth-child(4) .productImg{
+        width: 555px;
+        height: 1080px;
+        background-image: url(/img/index4.png);
+    }
+
+    //480px
+    @include bigPhone{
+        .productSection{
+            .productImg{
+                width: 345px;
+                height: 350px;
+                background-size: contain;
+            }
+            .productPoint{
+                margin-bottom: 20px;
+            }
+        }
+    
+        .productSection:nth-child(1) .productImg{
+            background-image: url(/img/mobileindex1.png);
+        }
+    
+        .productSection:nth-child(2) .productImg{
+            background-image: url(/img/mobileindex2.png);
+        }
+    
+        .productSection:nth-child(3) .productImg{
+            background-image: url(/img/mobileindex3.png);
+        }
+    
+        .productSection:nth-child(4) .productImg{
+            width: 345px;
+            height: 680px;
+            background-image: url(/img/mobileindex4.png);
+        }
+    
+    }
+   //product bgi 設定
+
+
+   //product swipe//
+    .productSwipe{
+        background: #E0E0E0;
+        padding:40px 0;
+
+        .soldOut{    
+            
+                font-size: 24px;
+                position: absolute;
+                top:0px;
+                height: 100%;
+                width: 100%;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                background: rgba(0, 0, 0, .2);
+        }
+
+       
+    }
+     
+    //product swipe//
+
+
+    //recycling swipe//
+    .recycling{
+        padding:40px 0;
+        
+    }
+     
+    //recycling swipe//
+}

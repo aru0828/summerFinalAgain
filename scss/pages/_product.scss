@@ -1,0 +1,43 @@
+@include ipad{
+    .productHeader{
+        margin-bottom: 40px;
+    }
+}
+
+
+.productPage{
+
+    
+    .pagination{
+       margin-bottom: 60px;
+       li{
+          margin-right: 20px;
+          a{
+              color:black;
+              display:block;
+              font-size: 20px;
+          }
+          a.active{
+              color:$primary;
+              padding:0 2px;
+              border-bottom:2px solid $primary;
+          }
+        }
+}
+    
+    @include ipad{
+        .productList{
+            li{
+                margin-bottom: 32px;
+            }
+         
+            h4{
+                font-size: 20px;
+            }
+
+            .productListFeatures li{
+                margin-bottom: 0;
+            }
+        }
+    }
+}

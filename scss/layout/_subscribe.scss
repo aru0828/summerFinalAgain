@@ -1,0 +1,26 @@
+.subscribe{
+    background-image: url(/img/smallSubscrible.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 312px;
+    
+    h2{
+        margin-bottom: 20px;
+    }
+
+    .input-group .subscribeEmail{
+        height: 60px;
+    }
+    .input-group{
+        border:1px solid $primary;
+    }
+
+    @include ipad{
+        background-image: url(/img/mobileSubscribe.png);
+
+        .allRight{
+            font-size:14px;
+        }
+    }
+}
