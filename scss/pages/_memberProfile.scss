@@ -1,0 +1,21 @@
+.memberProfile{
+    .memberListTitle{
+        margin-bottom: 28px;
+    }
+
+    .memberList{
+        li{
+            margin-bottom: 24px;
+        }
+
+        a.active, a:hover{
+            border-bottom:2px solid $primary;
+            margin-bottom:-2px;
+        }
+    }
+
+    .memberTitle{
+        padding-bottom: 8px;
+        border-bottom:1px solid $secondary;
+    }
+}

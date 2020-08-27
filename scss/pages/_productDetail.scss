@@ -1,0 +1,41 @@
+.productDetail{
+    .producrDetailImg>div{
+        margin-bottom: 30px;
+    }
+
+    .price{
+        margin-bottom: 12px;
+    }
+
+    .addFavoriteBtn{
+        margin-bottom: 80px;
+    }
+
+
+    .addCartInputGroup{
+        input{
+            width: 45%;
+        }
+        .input-group-append{
+            width: 55%;
+        }
+
+    
+
+        input[type=number]::-webkit-inner-spin-button {
+            opacity: 1
+        }
+    }
+
+
+    @include ipad{
+        .producrDetailImg>div{
+            margin-bottom: 16px;
+        }
+
+        .addFavoriteBtn{
+            margin-bottom: 40px;
+        }
+    
+    }
+}
