@@ -1,5 +1,5 @@
 .subscribe{
-    background-image: url(./img/smallSubscrible.png);
+    background-image: url(../../img/smallSubscrible.png);
     height: 600px;
     background-repeat: no-repeat;
     background-size:cover;
@@ -17,7 +17,7 @@
     }
 
     @include ipad{
-        background-image: url(./img/mobileSubscribe.png);
+        background-image: url(../../img/mobileSubscribe.png);
 
         .allRight{
             font-size:14px;

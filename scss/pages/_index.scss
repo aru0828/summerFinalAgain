@@ -1,6 +1,7 @@
 .banner{
     height: 870px;
-    background-image: url(./img/smallBanner.png);
+    
+    background-image: url(../../img/smallBanner.png);
     margin-bottom: 60px;
     padding-top: 295px;
     background-repeat: no-repeat;
@@ -17,7 +18,7 @@
     @include ipad{
         margin-bottom: 40px;
 
-        background-image: url(./img/mobileBanner.png);
+        background-image: url(../../img/mobileBanner.png);
         height: 480px;
         width: 100%;
         padding-top: 101px;
@@ -52,21 +53,21 @@
     }
     //product bgi 設定
     .productSection:nth-child(1) .productImg{
-        background-image: url(./img/index1.png);
+        background-image: url(../../img/index1.png);
     }
 
     .productSection:nth-child(2) .productImg{
-        background-image: url(./img/index2.png);
+        background-image: url(../../img/index2.png);
     }
 
     .productSection:nth-child(3) .productImg{
-        background-image: url(./img/index3.png);
+        background-image: url(../../img/index3.png);
     }
 
     .productSection:nth-child(4) .productImg{
         width: 555px;
         height: 1080px;
-        background-image: url(./img/index4.png);
+        background-image: url(../../img/index4.png);
     }
 
     //480px
@@ -83,21 +84,21 @@
         }
     
         .productSection:nth-child(1) .productImg{
-            background-image: url(./img/mobileindex1.png);
+            background-image: url(../../img/mobileindex1.png);
         }
     
         .productSection:nth-child(2) .productImg{
-            background-image: url(./img/mobileindex2.png);
+            background-image: url(../../img/mobileindex2.png);
         }
     
         .productSection:nth-child(3) .productImg{
-            background-image: url(./img/mobileindex3.png);
+            background-image: url(../../img/mobileindex3.png);
         }
     
         .productSection:nth-child(4) .productImg{
             width: 345px;
             height: 680px;
-            background-image: url(./img/mobileindex4.png);
+            background-image: url(../../img/mobileindex4.png);
         }
     
     }
