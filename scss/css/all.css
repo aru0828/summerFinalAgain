@@ -10863,6 +10863,7 @@ a:hover {
 
 ul {
   margin-bottom: 0;
+  padding-left: 0;
 }
 
 li {
@@ -10873,9 +10874,9 @@ li {
   position: relative;
 }
 
-.header .logo h1 {
+.header .logo a {
   width: 128px;
-  height: 38px;
+  display: block;
   background-image: url(../../img/d’Perfume.png);
   background-repeat: no-repeat;
   text-indent: 101%;
@@ -11186,6 +11187,7 @@ li {
 }
 
 .memberProfile .memberTitle {
+  font-size: 16px;
   padding-bottom: 8px;
   border-bottom: 1px solid #8D8D8D;
   color: black;
